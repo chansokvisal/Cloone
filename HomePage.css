@@ -1,0 +1,105 @@
+
+
+
+.btn-outline-primary{
+    border-radius: 20px;
+    padding:10px;
+    width: 100px;
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    --bs-btn-border-color:none;
+}
+
+.login:hover{
+  color:white;
+}
+
+.card{
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover{
+  transform: translateY(-10px) scale(1.05);
+}
+
+.col-6{
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.col-6:hover{
+transform: translateY(-10px) scale(1.05);
+}
+.btn-primary{
+    border-radius: 20px;
+    padding:10px;
+    width: 100px;
+    background-color: #F48C06;
+    --bs-btn-border-color:none;
+}
+
+.border-bottom {
+    border-bottom: none;
+  }
+  .text-body-emphasis{
+    color:white;
+  }
+
+  .nav-link{
+    color:gray;
+  }
+
+  .text-body-emphasis{
+    --bs-text-opacity: 1;
+    color: #e7e0e0 !important;
+  }
+
+#Home{
+    
+    background-color: #2CBDEB;
+  color:white;
+}
+
+
+.leadParagraph{
+  text-align: start;
+  padding:120px;
+  font-size: clamp(1rem, 1vw, 2rem);
+  line-height: 50px;
+}
+
+.featurette-heading{
+  color:#2CBDEB;
+}
+
+.pb-2{
+  color:#2CBDEB;
+}
+
+.featurette-image{
+  border-radius: 19.2px;
+}
+
+.col-lg-3{
+  width:50%;
+}
+
+/* This is to align the text in partnership part*/
+body{
+  text-align: center;
+  line-height: 50px;
+}
+
+.g-5, .gx-5 {
+  --bs-gutter-x: rem;
+}
+
+.col a{
+  text-decoration: none;
+  color:white;
+}
+
